@@ -4,57 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/ic_test_Background"
     tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/ic_te"
         android:backgroundTint="#FDFDFD"
         android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="154dp"
-            android:orientation="horizontal" >
-
-            <ImageView
-                android:id="@+id/imageView5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="#FFFFFF"
-                app:srcCompat="@drawable/ic_card0" />
-
-            <ImageView
-                android:id="@+id/imageView6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/ic_card_1" />
-
-            <ImageView
-                android:id="@+id/imageView7"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/ic_card_2" />
-
-            <ImageView
-                android:id="@+id/imageView8"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/ic_card_3" />
-
-            <ImageView
-                android:id="@+id/imageView9"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/ic_card_3" />
-        </LinearLayout>
+            android:orientation="horizontal"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -63,36 +24,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="154"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:id="@+id/imageView10"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/ic_card0" />
-
-            <ImageView
-                android:id="@+id/imageView11"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/ic_card_1" />
-
-            <ImageView
-                android:id="@+id/imageView12"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/ic_card_2" />
-
-            <ImageView
-                android:id="@+id/imageView13"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/ic_card_3" />
-        </LinearLayout>
+            android:layout_height="151dp"
+            android:orientation="horizontal"/>
     </LinearLayout>
 </RelativeLayout>
