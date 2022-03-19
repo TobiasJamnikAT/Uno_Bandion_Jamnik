@@ -4,10 +4,10 @@ import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
 import android.widget.ImageView;
 
-public class Card {
+public class CardView {
     private String resource;
 
-    public Card(String resource) {
+    public CardView(String resource) {
         this.resource = resource;
     }
 

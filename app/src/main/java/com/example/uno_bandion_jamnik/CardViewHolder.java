@@ -6,10 +6,10 @@ import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-public class CardHolder extends RecyclerView.ViewHolder {
+public class CardViewHolder extends RecyclerView.ViewHolder {
     private ImageView imgCard;
 
-    public CardHolder(@NonNull View itemView, ImageView imgCard) {
+    public CardViewHolder(@NonNull View itemView, ImageView imgCard) {
         super(itemView);
         this.imgCard = imgCard;
     }

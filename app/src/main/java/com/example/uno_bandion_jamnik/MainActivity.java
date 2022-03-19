@@ -20,20 +20,20 @@ public class MainActivity extends AppCompatActivity {
         hand1 = findViewById(R.id.rvHand1);
         hand2 = findViewById(R.id.rvHand2);
 
-        List<Card> cardList = new LinkedList<>();
+        List<CardView> cardViewList = new LinkedList<>();
 
-        Card card1 = new Card("C:\\Users\\Tobias Jamnik\\AndroidStudioProjects\\Ueben2Test\\Uno_Bandion_Jamnik\\app\\src\\main\\res\\drawable\\card3_red");
-        Card card2 = new Card("C:\\Users\\Tobias Jamnik\\AndroidStudioProjects\\Ueben2Test\\Uno_Bandion_Jamnik\\app\\src\\main\\res\\drawable\\card1_green");
-        Card card3 = new Card("C:\\Users\\Tobias Jamnik\\AndroidStudioProjects\\Ueben2Test\\Uno_Bandion_Jamnik\\app\\src\\main\\res\\drawable\\card0_blue");
+        CardView cardView1 = new CardView("C:\\Users\\Tobias Jamnik\\AndroidStudioProjects\\Ueben2Test\\Uno_Bandion_Jamnik\\app\\src\\main\\res\\drawable\\card3_red");
+        CardView cardView2 = new CardView("C:\\Users\\Tobias Jamnik\\AndroidStudioProjects\\Ueben2Test\\Uno_Bandion_Jamnik\\app\\src\\main\\res\\drawable\\card1_green");
+        CardView cardView3 = new CardView("C:\\Users\\Tobias Jamnik\\AndroidStudioProjects\\Ueben2Test\\Uno_Bandion_Jamnik\\app\\src\\main\\res\\drawable\\card0_blue");
 
-        cardList.add(card1);
-        cardList.add(card2);
-        cardList.add(card3);
+        cardViewList.add(cardView1);
+        cardViewList.add(cardView2);
+        cardViewList.add(cardView3);
 
         hand1.setLayoutManager(new LinearLayoutManager(getApplicationContext(), LinearLayoutManager.HORIZONTAL, false));
-        hand1.setAdapter(new CardAdapter(cardList));
+        hand1.setAdapter(new CardViewAdapter(cardViewList));
         hand2.setLayoutManager(new LinearLayoutManager(getApplicationContext(), LinearLayoutManager.HORIZONTAL, false));
-        hand2.setAdapter(new CardAdapter(cardList));
+        hand2.setAdapter(new CardViewAdapter(cardViewList));
 
 
 
