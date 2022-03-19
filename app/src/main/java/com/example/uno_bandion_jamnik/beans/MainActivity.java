@@ -1,10 +1,14 @@
-package com.example.uno_bandion_jamnik;
+package com.example.uno_bandion_jamnik.beans;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+
+import com.example.uno_bandion_jamnik.CardView;
+import com.example.uno_bandion_jamnik.CardViewAdapter;
+import com.example.uno_bandion_jamnik.R;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -25,18 +29,16 @@ public class MainActivity extends AppCompatActivity {
         CardView cardView1 = new CardView("C:\\Users\\Tobias Jamnik\\AndroidStudioProjects\\Ueben2Test\\Uno_Bandion_Jamnik\\app\\src\\main\\res\\drawable\\card3_red");
         CardView cardView2 = new CardView("C:\\Users\\Tobias Jamnik\\AndroidStudioProjects\\Ueben2Test\\Uno_Bandion_Jamnik\\app\\src\\main\\res\\drawable\\card1_green");
         CardView cardView3 = new CardView("C:\\Users\\Tobias Jamnik\\AndroidStudioProjects\\Ueben2Test\\Uno_Bandion_Jamnik\\app\\src\\main\\res\\drawable\\card0_blue");
+        CardView cardView4 = new CardView("C:\\Users\\Tobias Jamnik\\AndroidStudioProjects\\Ueben2Test\\Uno_Bandion_Jamnik\\app\\src\\main\\res\\drawable\\card0_blue");
 
         cardViewList.add(cardView1);
         cardViewList.add(cardView2);
         cardViewList.add(cardView3);
+        cardViewList.add(cardView4);
 
         hand1.setLayoutManager(new LinearLayoutManager(getApplicationContext(), LinearLayoutManager.HORIZONTAL, false));
         hand1.setAdapter(new CardViewAdapter(cardViewList));
         hand2.setLayoutManager(new LinearLayoutManager(getApplicationContext(), LinearLayoutManager.HORIZONTAL, false));
         hand2.setAdapter(new CardViewAdapter(cardViewList));
-
-
-
-
     }
 }
