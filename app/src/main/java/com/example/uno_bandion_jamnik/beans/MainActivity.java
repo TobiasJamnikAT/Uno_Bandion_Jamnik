@@ -26,10 +26,10 @@ public class MainActivity extends AppCompatActivity {
 
         List<CardView> cardViewList = new LinkedList<>();
 
-        CardView cardView1 = new CardView("C:\\Users\\Tobias Jamnik\\AndroidStudioProjects\\Ueben2Test\\Uno_Bandion_Jamnik\\app\\src\\main\\res\\drawable\\card3_red");
-        CardView cardView2 = new CardView("C:\\Users\\Tobias Jamnik\\AndroidStudioProjects\\Ueben2Test\\Uno_Bandion_Jamnik\\app\\src\\main\\res\\drawable\\card1_green");
-        CardView cardView3 = new CardView("C:\\Users\\Tobias Jamnik\\AndroidStudioProjects\\Ueben2Test\\Uno_Bandion_Jamnik\\app\\src\\main\\res\\drawable\\card0_blue");
-        CardView cardView4 = new CardView("C:\\Users\\Tobias Jamnik\\AndroidStudioProjects\\Ueben2Test\\Uno_Bandion_Jamnik\\app\\src\\main\\res\\drawable\\card0_blue");
+        CardView cardView1 = new CardView("");
+        CardView cardView2 = new CardView("");
+        CardView cardView3 = new CardView("");
+        CardView cardView4 = new CardView("");
 
         cardViewList.add(cardView1);
         cardViewList.add(cardView2);
