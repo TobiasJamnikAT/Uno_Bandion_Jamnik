@@ -10,16 +10,17 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:backgroundTint="#FDFDFD"
-        android:orientation="vertical"
-        android:background="@drawable/pokertablebackground">
+        android:orientation="vertical">
 
         <LinearLayout
             android:id="@+id/layoutHand1"
             android:layout_width="match_parent"
             android:layout_height="154dp"
+            android:background="#FFF3E0"
             android:orientation="horizontal">
 
             <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvHand1"
                 android:layout_width="match_parent"
                 android:layout_height="141dp" />
         </LinearLayout>
@@ -28,7 +29,7 @@
             android:id="@+id/mainBoard"
             android:layout_width="match_parent"
             android:layout_height="424dp"
-            android:background="@drawable/pokertablebackground"
+            android:background="#FFF3E0"
             android:orientation="horizontal"
             android:padding="50dp">
 
@@ -57,9 +58,11 @@
             android:id="@+id/layoutHand2"
             android:layout_width="match_parent"
             android:layout_height="151dp"
+            android:background="#FFF3E0"
             android:orientation="horizontal">
 
             <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvHand2"
                 android:layout_width="match_parent"
                 android:layout_height="141dp" />
         </LinearLayout>
