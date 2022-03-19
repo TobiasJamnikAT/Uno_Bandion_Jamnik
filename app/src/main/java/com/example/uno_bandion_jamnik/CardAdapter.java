@@ -10,7 +10,6 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
-//Cock
 public class CardAdapter extends RecyclerView.Adapter<CardHolder> {
     List<Card> cardList;
 
