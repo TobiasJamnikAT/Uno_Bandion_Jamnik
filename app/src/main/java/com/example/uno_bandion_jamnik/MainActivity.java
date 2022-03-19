@@ -22,9 +22,21 @@ public class MainActivity extends AppCompatActivity {
 
         List<Card> cardList = new LinkedList<>();
 
+        Card card1 = new Card("C:\\Users\\Tobias Jamnik\\AndroidStudioProjects\\Ueben2Test\\Uno_Bandion_Jamnik\\app\\src\\main\\res\\drawable\\card3_red");
+        Card card2 = new Card("C:\\Users\\Tobias Jamnik\\AndroidStudioProjects\\Ueben2Test\\Uno_Bandion_Jamnik\\app\\src\\main\\res\\drawable\\card1_green");
+        Card card3 = new Card("C:\\Users\\Tobias Jamnik\\AndroidStudioProjects\\Ueben2Test\\Uno_Bandion_Jamnik\\app\\src\\main\\res\\drawable\\card0_blue");
+
+        cardList.add(card1);
+        cardList.add(card2);
+        cardList.add(card3);
+
         hand1.setLayoutManager(new LinearLayoutManager(getApplicationContext(), LinearLayoutManager.HORIZONTAL, false));
         hand1.setAdapter(new CardAdapter(cardList));
         hand2.setLayoutManager(new LinearLayoutManager(getApplicationContext(), LinearLayoutManager.HORIZONTAL, false));
         hand2.setAdapter(new CardAdapter(cardList));
+
+
+
+
     }
 }
