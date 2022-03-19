@@ -6,7 +6,7 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="107dp"
+        android:layout_width="107sp"
         android:layout_height="192dp"
         app:srcCompat="@drawable/card0_blue" />
 </RelativeLayout>
