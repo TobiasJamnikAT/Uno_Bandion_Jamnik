@@ -1,4 +1,4 @@
-package com.example.uno_bandion_jamnik.beans;
+package com.example.uno_bandion_jamnik;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -40,5 +40,7 @@ public class MainActivity extends AppCompatActivity {
         hand1.setAdapter(new CardViewAdapter(cardViewList));
         hand2.setLayoutManager(new LinearLayoutManager(getApplicationContext(), LinearLayoutManager.HORIZONTAL, false));
         hand2.setAdapter(new CardViewAdapter(cardViewList));
+
+
     }
 }

@@ -10,25 +10,11 @@ import java.util.Map;
 
 public class JWebsocketClientEndpoint extends WebSocketClient {
 
+    URI uri;
 
     public JWebsocketClientEndpoint(URI serverUri) {
         super(serverUri);
-    }
-
-    public JWebsocketClientEndpoint(URI serverUri, Draft protocolDraft) {
-        super(serverUri, protocolDraft);
-    }
-
-    public JWebsocketClientEndpoint(URI serverUri, Map<String, String> httpHeaders) {
-        super(serverUri, httpHeaders);
-    }
-
-    public JWebsocketClientEndpoint(URI serverUri, Draft protocolDraft, Map<String, String> httpHeaders) {
-        super(serverUri, protocolDraft, httpHeaders);
-    }
-
-    public JWebsocketClientEndpoint(URI serverUri, Draft protocolDraft, Map<String, String> httpHeaders, int connectTimeout) {
-        super(serverUri, protocolDraft, httpHeaders, connectTimeout);
+        this.uri = serverUri;
     }
 
     @Override
