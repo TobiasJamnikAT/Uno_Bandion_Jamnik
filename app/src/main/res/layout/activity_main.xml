@@ -26,9 +26,7 @@
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rvHand1"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginStart="2dp"
-                android:padding="2dp" />
+                android:layout_height="match_parent" />
         </LinearLayout>
 
         <LinearLayout
