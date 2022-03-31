@@ -11,10 +11,17 @@ import java.util.Map;
 public class JWebsocketClientEndpoint extends WebSocketClient {
 
     URI uri;
+    Draft draft;
 
     public JWebsocketClientEndpoint(URI serverUri) {
         super(serverUri);
         this.uri = serverUri;
+    }
+
+    public JWebsocketClientEndpoint(URI serverUri, Draft draft) {
+        super(serverUri);
+        this.uri = serverUri;
+        this.draft = draft;
     }
 
     @Override
